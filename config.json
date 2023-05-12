@@ -1,0 +1,43 @@
+{
+  "prefix": "-",
+  "db": "mongodb+srv://crex:crex@cluster0.u6zgok2.mongodb.net/crex",
+  "logs": "920657546988093501",
+  "embedColor": "#ffcb00",
+  "links": {
+    "bg": "https://media.discordapp.net/attachments/984799594787524668/990842585239130182/20220627_100911.jpg"
+  },
+
+  "owner": ["803839409870602240", "803839409870602240", "803839409870602240", "803839409870602240", "803839409870602240", "803839409870602240", "803839409870602240"],
+  "nodes": [
+
+    {
+      "name": "1",
+      "host": "eu-lavalink.lexnet.cc",
+      "port": "443",
+      "password": "lexn3tl@val!nk",
+      "secure": true
+    },
+    {
+      "name": "2",
+      "host": "lavalink.lexnet.cc",
+      "port": "443",
+      "password": "lexn3tl@val!nk",
+      "secure": true
+    },
+    {
+      "name": "3",
+      "host": "lavalink.devamop.in",
+      "port": "443",
+      "password": "DevamOP",
+      "secure": true
+    },
+    {
+      "name": "4",
+      "host": "oce-lavalink.lexnet.cc",
+      "port": "443",
+      "password": "lexn3tl@val!nk",
+      "secure": true
+    }
+  ]
+}
+
