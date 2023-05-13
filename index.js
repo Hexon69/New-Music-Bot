@@ -30,10 +30,10 @@ const client = new Client({
     ],
 });
 const { Database } = require("quickmongo");
-
-client.login("").catch(e => console.log(e));
-
 client.config = require("./config.json");
+client.login(client.config.TOKEN).catch(e => console.log(e));
+
+
 client.color = 0x303236
 client.poru = new Poru(client, client.config.nodes,{
   reconnectTime: 30,
