@@ -40,7 +40,7 @@ inVc: true,
   message.channel.send({embeds: [embed]})
       } else {
       
-    player.setVolume(args[0])
+    player.setVolume(args[0] / 100)
       
       const embed = new EmbedBuilder()
       .setColor(client.color)

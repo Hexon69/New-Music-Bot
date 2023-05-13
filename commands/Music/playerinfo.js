@@ -48,7 +48,7 @@ module.exports = {
         },
         {
           name: `Volume`,
-          value: `**${player.volume}%**`
+          value: `**${player.filters.volume * 100}%**`
         },
         {
           name: `Autoplay`,

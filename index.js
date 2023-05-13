@@ -31,7 +31,7 @@ const client = new Client({
 });
 const { Database } = require("quickmongo");
 
-client.login("MTA5MTkwNzk4MTYzNDk3Nzg3NA.GvVlzd.QOwEWzPygSkHLiSRP1NhrRvrxaxd32nXJi9S-M").catch(e => console.log(e));
+client.login("").catch(e => console.log(e));
 
 client.config = require("./config.json");
 client.color = 0x303236
